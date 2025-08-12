@@ -27,5 +27,5 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven changed
+    - name: Build with Maven changed 2
       run: mvn clean install
