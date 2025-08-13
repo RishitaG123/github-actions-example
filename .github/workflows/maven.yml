@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Show current working directory
-      working-directory: ./intellij_community
+      working-directory: .
       run: pwd
     - name: Build with Maven changed 2
       run: mvn clean install
